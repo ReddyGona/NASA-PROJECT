@@ -21,6 +21,9 @@
       "react-app/jest"
     ]
   },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "latest"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -32,8 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+    
   },
   "overrides": {
     "nth-check@1.0.2": "2.0.1"
   }
+  
 }
